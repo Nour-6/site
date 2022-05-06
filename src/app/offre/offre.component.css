@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  /* Title section */
+    
+  .bg-section{
+    background-size: cover;
+    height: 50vh;
+    min-height: 80px;
+  }
+  .bg-section h2{
+    padding-top: 9% ;
+    font-weight: 600;
+    font-size: 3rem;
+    max-width: 20ch;
+    color:#ffffff;
+    margin: auto ;
+    margin-left: 4%;
+  }
+
+  .container-fluid{
+    background:#f5f5f5;
+    padding: 7% 5%;
+}
+.section {
+    padding: 2% 0;
+    position: relative;
+    background:#f5f5f5;
+    position: relative;
+}
+
+/* Blog 
+---------------------*/
+.blog-grid {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.blog-grid .blog-img {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.blog-grid .blog-img img{
+    max-height: 200px;
+}
+.blog-grid .blog-img .date {
+  position: absolute;
+  background: #3a3973;
+  color: #ffffff;
+  padding: 8px 15px;
+  left: 0;
+  top: 10px;
+  font-size: 14px;
+}
+.blog-grid .blog-info {
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  border-radius: 5px;
+  background: #ffffff;
+  padding: 20px;
+  margin: -60px 20px 0;
+  position: relative;
+}
+.blog-grid .blog-info h5 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+.blog-grid .blog-info h5 a {
+  color: #20247b;
+}
+.blog-grid .blog-info ul {
+  margin: 0;
+}
+.blog-grid .blog-info p {
+    margin: 0;
+}
+
+.blog-grid .blog-info .btn-bar {
+  margin-top: 20px;
+}
+
+
+
+/* Form */
+.search-form {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.search-form input {
+  height: 100%;
+  background: transparent;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.search-form select {
+  background: transparent;
+  border: 0;
+  padding: 1rem;
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.search-form select:focus {
+  border: 0;
+}
+
+.search-form button {
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.search-form button svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Section Title */
+.section-title h1 {
+    font-size: 44px;
+    font-weight: 500;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    color: #20247b;
+}
+.section-title h2 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 0;
+    position: relative;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    color: #20247b;
+}
+.section-title p {
+    padding: 0 ;
+    width: 100%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.text-center {
+    text-align: center!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
