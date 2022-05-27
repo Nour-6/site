@@ -140,7 +140,7 @@ a:focus{
 
 .footer-icon{
   padding-top: 8px  ;
-  padding-right: 18px;
+  padding-right: 25px;
   color:rgba(255, 255, 255, 0.8);
   transition: transform 0.2s;
   transform: scale(1.2);
@@ -230,7 +230,17 @@ a:focus{
   background: #C0E02E;
 }
 
-.subscription .submit-email .before-submit,
+.subscription .submit-email .before-submit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 42px;
+  transition: visibility .35s ease-in-out,
+    opacity .35s ease-in-out;
+}
 .subscription .submit-email .after-submit {
   position: absolute;
   top: 0;
@@ -238,9 +248,15 @@ a:focus{
   width: 100%;
   height: 100%;
   text-align: center;
-  line-height: 38px;
+  line-height: 25px;
   transition: visibility .35s ease-in-out,
     opacity .35s ease-in-out;
+}
+.alert{
+  background: #36486b;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 19px;
 }
 
 .subscription.done .submit-email .before-submit,

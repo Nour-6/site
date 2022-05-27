@@ -147,8 +147,8 @@
   border-radius: 50%;
 }
 .navbar.fixed-top.navbar-dark .navbar-brand img {
-  height: 35px;
-  width: 110px;
+  height: 30px;
+  width: 100px;
 }
 
 @media screen and (max-width: 768px) {

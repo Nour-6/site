@@ -111,6 +111,10 @@
     padding: 5% 0% 10% 0%;
     background-color:#ffffff  ;  
   }
+  .section{
+    padding: 5% 5% 10% 5%;
+    background-color:#ffffff  ;  
+  }
 
 .section-title p {
   padding-top: 8%;
@@ -123,45 +127,89 @@
   }
   
   
-  .row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    grid-gap: 5px;
-    padding-right: 6%;
-    padding-left: 6%;
-  }
+  /* Feature Box
+---------------------*/
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+  background-color: #36486b;
+  min-height: 24rem;
+}
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  color: #36486b;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1:hover .icon{
+  color: #ffffff;
+  background-color: #36486b;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #ffffff;
+  font-weight: 600;
+}
+.feature-box-1 ul {
+  margin: 0;
+}
+.feature-box-1 ul li{
+  color:rgba(255, 255, 255, 0.8);
+}
+.feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: #ffffff;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -5px;
   
-  .service {
-    text-align: center;
-    padding: 23px 18px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    background: transparent;
-    transition: transform 0.5s, background 0.5s;
-  }
-  
-  .service i {
-    font-size: 40px;
-    margin-bottom: 12px;
-    color: #20247b;
-  }
-  
-  .service h2 {
-    font-weight: 600;
-    margin-bottom: 8px;
-    color:#20247b;
-  }
-  
-  .service:hover {
-    background: #36486b;
-    color: #fff;
-    transform: scale(1.05);
-  }
-  .service:hover h2{
-    color:#fff;
-  }
-  .service:hover i {
-    color: #fff;
-  }
-  
+}
+
+.feature-box-1:hover h5 {
+  color: #20247b;
+}
+.feature-box-1:hover ul li {
+  color: #20247b;
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}

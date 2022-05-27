@@ -108,11 +108,15 @@
       cursor: pointer;
       width: 100%;
   }
-  
+  .alert{
+    background: #36486b;
+    color: #fff;
+    border-radius: 30px;
+  }
   .btn-contact-bg:hover,
   .btn-contact-bg:focus {
-      background: #232434;
-      color: #fff;
+     opacity: 0.9;
+     
   }
   
   /*START ADDRESS*/

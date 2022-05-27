@@ -8,6 +8,8 @@ import { Observable } from 'rxjs';
 export class FooterService {
 
   constructor(private http: HttpClient){}
-
+  public sendEmail(email:String): Observable<void>{
+    return  this.http.post<void>(`http://localhost:8080/mail/send`, email);
+  }
  
 }

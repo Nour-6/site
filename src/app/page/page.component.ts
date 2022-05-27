@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-page',
@@ -8,11 +9,16 @@ import { Component, OnInit } from '@angular/core';
 export class PageComponent implements OnInit {
   page: any;
 
-  constructor() { }
+  constructor(private router:Router
+    ) { }
 
   ngOnInit(): void {
    }
-
+   
+   redirect(path:String): void {
+    this.router.navigate(['/'+path]).then(() => {
+             window.location.reload();
+           });}
 
 
 }

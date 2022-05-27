@@ -20,6 +20,9 @@ import { ChiffreComponent } from './chiffre/chiffre.component';
 import { ValeurComponent } from './valeur/valeur.component';
 import { OffreComponent } from './offre/offre.component';
 import { CandidatureComponent } from './candidature/candidature.component';
+import { ActualiteComponent } from './actualite/actualite.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,10 +40,13 @@ import { CandidatureComponent } from './candidature/candidature.component';
     ValeurComponent,
     OffreComponent,
     CandidatureComponent,
+    ActualiteComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule ,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,

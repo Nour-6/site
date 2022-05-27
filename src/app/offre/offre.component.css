@@ -24,10 +24,46 @@
     padding: 7% 5%;
 }
 .section {
-    padding: 2% 0;
+    padding-bottom: 3%;
     position: relative;
     background:#f5f5f5;
     position: relative;
+}
+.section
+.section-candidature{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  min-height: 80px;
+}
+.section-candidature h3{
+  padding-top: 6%;
+  font-weight: 600;
+  font-size: 2rem;
+  max-width: 20ch;
+  color:#ffffff;
+  margin: auto ;
+  margin-left: 6%;
+  margin-bottom: 1%;
+}
+.section-candidature p{
+  font-size: 1rem;
+  color:rgba(255, 255, 255, 0.8);
+  padding-top: 0 ;
+  margin-bottom: 5%;
+  margin-left: 6%;
+}
+.section-candidature button{
+  margin-top: 10%;
+  margin-left: 8%;
+  width: 70%;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #36486b;
+}
+.section-candidature button:hover{
+  background-color:#36486b;
+  color: #fff;
 }
 
 /* Blog 
@@ -44,15 +80,6 @@
 .blog-grid .blog-img img{
     max-height: 200px;
 }
-.blog-grid .blog-img .date {
-  position: absolute;
-  background: #3a3973;
-  color: #ffffff;
-  padding: 8px 15px;
-  left: 0;
-  top: 10px;
-  font-size: 14px;
-}
 .blog-grid .blog-info {
   box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
   border-radius: 5px;
@@ -60,68 +87,63 @@
   padding: 20px;
   margin: -60px 20px 0;
   position: relative;
+  min-height: 25rem;
 }
 .blog-grid .blog-info h5 {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 10px;
 }
 .blog-grid .blog-info h5 a {
-  color: #20247b;
+  color:#20247b;
 }
-.blog-grid .blog-info ul {
-  margin: 0;
-}
+
 .blog-grid .blog-info p {
-    margin: 0;
+    margin: 3% 0%;
+    font-size: 15px;
+    
 }
 
 .blog-grid .blog-info .btn-bar {
   margin-top: 20px;
+  text-align: right;
 }
-
+.blog-grid .blog-info .badge{
+  padding: 2px 21px;
+  font-size: 13px;
+  color: #fff;
+  background: #002347;
+  text-transform: uppercase;
+}
 
 
 /* Form */
-.search-form {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 1rem;
+
+.input-box{
+  position: relative;
+  margin-bottom: 4%;
 }
 
-.search-form input {
-  height: 100%;
-  background: transparent;
-  border: 0;
-  display: block;
-  width: 100%;
-  padding: 1rem;
-  font-size: 1rem;
+.input-box i {
+  position: absolute;
+  right: 13px;
+  top:15px;
+  color:#ced4da;
+
 }
 
-.search-form select {
-  background: transparent;
-  border: 0;
-  padding: 1rem;
-  height: 100%;
-  width: 100%;
-  font-size: 1rem;
+.form-control{
+
+  height: 50px;
+  background-color:#eeeeee69;
 }
 
-.search-form select:focus {
-  border: 0;
+.form-control:focus{
+  background-color: #eeeeee69;
+  box-shadow: none;
+  border-color: #eee;
 }
 
-.search-form button {
-  height: 100%;
-  width: 100%;
-  font-size: 1rem;
-}
-
-.search-form button svg {
-  width: 24px;
-  height: 24px;
-}
 
 /* Section Title */
 .section-title h1 {
@@ -139,7 +161,7 @@
     margin-top: 0;
     position: relative;
     text-transform: capitalize;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
     color: #20247b;
 }
 .section-title p {
@@ -154,7 +176,27 @@
 .text-center {
     text-align: center!important;
 }
+/* candidature button */
+.btn-contact-bg {
+  border-radius: 30px;
+  color: #36486b;
+  outline: medium none !important;
+  padding: 15px 27px;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: #ffffff;
+  font-family: 'poppins', sans-serif;
+  cursor: pointer;
+  width: 100%;
+}
 
+.btn-contact-bg:hover,
+.btn-contact-bg:focus {
+  background: #232434;
+  color: #fff;
+}
 
 
 
